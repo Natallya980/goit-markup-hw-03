@@ -8,8 +8,10 @@ p {
   margin: 0;
   padding: 0;
 }
-ul {
+ul,
+li {
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 img {
@@ -103,7 +105,6 @@ body {
   color: #ffffff;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
-  padding-top: 0;
 }
 .btn {
   display: block;
