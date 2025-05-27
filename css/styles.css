@@ -6,6 +6,7 @@ h2,
 h3,
 p {
   margin: 0;
+  padding: 0;
 }
 ul {
   margin: 0;
@@ -102,6 +103,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  padding-top: 0;
 }
 .btn {
   display: block;
@@ -207,6 +209,7 @@ body {
   padding: 120px 0;
 }
 .portfolio-list {
+  max-width: 496px;
   display: flex;
   padding-top: 72px;
   flex-direction: row;
