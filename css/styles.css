@@ -131,10 +131,11 @@ body {
 .dscr-list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .dscr-list-item {
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .dscr-title {
   font-weight: 500;
@@ -180,6 +181,7 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .team-container {
   padding: 32px 0;
@@ -187,7 +189,7 @@ body {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-text {
   color: #434455;
@@ -215,7 +217,7 @@ body {
   row-gap: 48px;
 }
 .portfolio-list-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-container {
   padding: 32px 16px;
