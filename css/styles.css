@@ -210,10 +210,9 @@ body {
   padding: 120px 0;
 }
 .portfolio-list {
-  max-width: 496px;
   display: flex;
   padding-top: 72px;
-  flex-direction: row;
+
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
