@@ -8,9 +8,7 @@ p {
   margin: 0;
 }
 ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   list-style-type: none;
 }
 img {
@@ -27,7 +25,7 @@ body {
   font-weight: 400;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -42,7 +40,6 @@ body {
   background-color: #ffffff;
 }
 .header-container {
-  width: 1158px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,31 +91,31 @@ body {
 }
 
 .hero-section {
-  text-align: center;
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
 .hero-title {
-  max-width: 496px;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   color: #ffffff;
   letter-spacing: 0.02em;
-  margin-bottom: 0 auto 48px;
+  margin-bottom: 48px;
 }
 .btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   font-weight: 500;
   color: #ffffff;
   letter-spacing: 0.04em;
   border: none;
-  padding: 16px 32px;
-  border-radius: 4px;
   cursor: pointer;
   line-height: 1.5;
-  display: block;
   min-width: 169px;
 }
 .btn:focus,
@@ -130,7 +127,6 @@ body {
   padding: 120px 0;
 }
 .dscr-list {
-  max-width: 1158px;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -211,7 +207,6 @@ body {
   padding: 120px 0;
 }
 .portfolio-list {
-  max-width: 1158px;
   display: flex;
   padding-top: 72px;
   flex-direction: row;
