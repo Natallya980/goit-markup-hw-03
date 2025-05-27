@@ -1,13 +1,7 @@
 a {
   text-decoration: none;
 }
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
+
 ul,
 li {
   margin: 0;
@@ -38,7 +32,7 @@ body {
 
 .page-header {
   box-sizing: border-box;
-  padding: 24px 0;
+
   border-bottom: 1px solid #e7e9fc;
   background-color: #ffffff;
 }
@@ -85,6 +79,7 @@ body {
   font-style: normal;
 }
 .contact-link {
+  padding: 24px 0;
   font-style: normal;
   color: #434455;
 }
@@ -213,7 +208,8 @@ body {
 .portfolio-list {
   display: flex;
   padding-top: 72px;
-
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
