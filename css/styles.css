@@ -99,12 +99,13 @@ body {
 }
 
 .hero-title {
+  max-width: 496px;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   color: #ffffff;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
 }
 .btn {
   display: block;
