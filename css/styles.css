@@ -15,6 +15,7 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -93,19 +94,19 @@ body {
 }
 
 .hero-section {
-  background-color: #2e2f42;
   text-align: center;
+  background-color: #2e2f42;
   padding: 188px 0;
 }
 
 .hero-title {
   max-width: 496px;
   font-size: 56px;
+  text-align: center;
   line-height: 1.07;
   color: #ffffff;
-  text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin-bottom: 0 auto 48px;
 }
 .btn {
   background-color: #4d5ae5;
@@ -129,6 +130,7 @@ body {
   padding: 120px 0;
 }
 .dscr-list {
+  max-width: 1158px;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -150,16 +152,10 @@ body {
   color: #434455;
 }
 
-.team-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-  text-align: center;
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -177,7 +173,13 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+  text-align: center;
+}
 .team-list {
+  max-width: 1158px;
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -209,6 +211,7 @@ body {
   padding: 120px 0;
 }
 .portfolio-list {
+  max-width: 1158px;
   display: flex;
   padding-top: 72px;
   flex-direction: row;
@@ -235,7 +238,7 @@ body {
 .portfolio-text {
   color: #434455;
 }
-
+/*=============== Footer section=========== */
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
